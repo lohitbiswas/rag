@@ -1,0 +1,547 @@
+	
+
+
+
+
+
+
+
+
+
+www.intglobal.com paromita@intglobal.com	
++91-8697724359
+
+
+
+
+
+Business Proposal
+
+AI-Enabled Proposal & Intelligence Platform
+26th February 2026
+
+
+
+
+
+
+
+
+
+Statement of Confidentiality
+The proposal contains confidential and proprietary business information of Indus Net Technologies. These may be printed or photocopied for use in evaluating the proposed project, but are not to be shared with other parties.
+
+
+Acknowledgment
+
+
+Contents
+1. Executive Summary	4
+2. Project Objective	4
+3. INT. at a Glance	5
+4. Why INT.	5
+5. Solution Scope of Work	6
+5.1. Overview	6
+5.2. Module-wise Functional Workflow	7
+5.2.1. User & Access Management Module	7
+5.2.2. SharePoint Integration & Knowledge Ingestion Module	7
+5.2.3. External Data Integration Module	8
+5.2.4. Knowledge Retrieval & Semantic Search Module	9
+5.2.5. AI Response Generation Module	9
+6.2.5.3. Workflow	10
+5.2.6. User Interaction & Offline Utilisation Module	10
+5.2.6.1. Overview:	10
+5.2.6.2. Functional Capabilities	10
+5.2.6.3. Workflow	10
+6. Assumptions	11
+6.1. Project-Specific  Assumptions	11
+6.2. General Assumptions	12
+7. Exclusions	12
+8. Engagement  Responsibilities	14
+9. Technology  Stack	15
+10. Platform Specification	16
+11. Project Execution Technology	16
+12. Release Management	18
+13. Ownership of works	19
+14. Change Management	19
+15. Deliverables	21
+16. Commercial Summary	22
+17. General Terms & Conditions	22
+18. Governance Model	23
+19. Holiday List 2026	25
+
+1. Executive Summary
+Brightter Inc. manages a significant volume of historical RFP responses and proposal documents within its SharePoint environment. While this repository represents valuable institutional knowledge, retrieving relevant content for new RFPs remains a manual and time-intensive process. Teams must search across multiple documents, identify applicable sections, and reconstruct responses-resulting in inefficiencies and inconsistent turnaround times.
+
+To address this challenge, INT will design and implement a chat-based AI knowledge retrieval solution that enables Brightter's users to access historical proposal content through natural language queries. The solution will intelligently search indexed SharePoint documents and generate consolidated responses grounded in Brightter's own historical materials.
+
+Rather than introducing complex document production workflows, the solution focuses on accelerating access to institutional knowledge while preserving Brightter's existing offline proposal preparation process. Users will review generated responses and retain full ownership of final document drafting outside the system.
+
+This approach delivers measurable operational value by:
+
+? Reducing time spent manually searching historical proposals
+? Improving response consistency across RFP submissions
+? Leveraging existing institutional knowledge more effectively
+? Maintaining human control over final proposal content
+? Integrating securely within Brightter's Microsoft ecosystem
+
+Through this focused implementation, INT will enable Brightter Inc. to transition from manual knowledge searching to an AI-assisted retrieval model that improves efficiency while maintaining governance and professional oversight.
+
+2. Project Objective
+The project involves designing and implementing a workflow-driven AI application integrated with the organization's Microsoft ecosystem (primarily SharePoint-based repositories). The system will function as a structured document production platform rather than a conversational assistant.
+
+The application will support a defined lifecycle: ingestion of historical documents, classification of incoming RFPs, template-based response generation using contextual retrieval, human review and approval, and controlled document export. The solution will also support aggregation of research inputs from approved sources to produce analytical narratives and enable generation of structured reports for internal and client use.
+
+Key functional areas include:
+
+
+? Knowledge repository ingestion and contextual retrieval
+? Template-driven proposal drafting with AI assistance
+? Check-in/check-out editing and approval workflow
+? Research data aggregation and insight generation
+? Report creation and controlled distribution
+? Training and governed adoption
+
+The platform will operate as a secure internal application with role-based access and human-in-the-loop validation, ensuring professional accuracy and compliance while improving efficiency across the advisory lifecycle.
+
+3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. 
+
+Our StrengthValue to This Engagement28+ years of digital delivery excellenceBrings execution maturity, proven delivery practices, and dependable outcomesDocument & records management expertise across banking, financial services, and life sciencesEnables structured organization, accurate retrieval, and long-term stewardship of archival recordsTechnology-driven & cybersecure platform deliveryEnsures resilient, secure, and future-ready systems for trusted public access
+
+Our StrengthValue to This EngagementExperience building large-scale information access platformsSupports intuitive discovery and seamless access to extensive AI Transformation solutions.Scalable, governance-aware and user-focused solutionsSupports growing collections while ensuring responsible access and ease of use
+5. Solution Scope of Work
+5.1. Overview
+INT will design, develop, and deploy a chat-based knowledge retrieval solution for Brightter
+Inc., integrated with Brightter's existing SharePoint environment.
+
+The solution will enable Brightter's internal users to retrieve relevant historical RFP responses and proposal content through a natural language conversational interface. Historical documents stored in designated SharePoint libraries will be ingested, indexed, and transformed into a searchable knowledge base to support contextual retrieval.
+
+When a user submits a question within the chat interface, the system will interpret the query, search indexed historical documents, and retrieve the most relevant content segments. Based on the retrieved context, the system will generate a consolidated response grounded in Brightter's own documented knowledge. The generated response will be displayed within the chat interface for user review.
+
+Users will retain full control over final proposal preparation by manually copying the generated response and incorporating it into their offline document drafting process.
+
+The implementation scope includes:
+
+? Integration with designated SharePoint repositories
+? Document ingestion and indexing of historical RFP and proposal content
+? Natural language query processing
+? Contextual content retrieval
+? AI-assisted response generation
+? Chat-based user interface for interaction
+
+
+The solution will operate securely within Brightter's Microsoft ecosystem and will be accessible to authorized internal users.
+
+5.2. Module-wise Functional Workflow
+5.2.1. User & Access Management Module
+5.2.1.1. Overview:
+
+This module governs how Brightter users securely access and interact with the chat-based knowledge retrieval platform. It ensures authenticated access to the system and controlled usage of internal knowledge sources.
+
+Given that the platform provides access to historical RFP responses and advisory content, it is critical that only authorized internal users can access the system. This module ensures that system access is secure and traceable.
+
+5.2.1.2. Functional Capabilities
+? Organizational SSO-based authentication
+? Role-based access control (Internal User / Admin)
+? Secure session management
+? Basic user activity tracking
+5.2.1.3. Workflow
+? User authentication via organizational login
+? Role assignment (Writer / Approver)
+? Permission enforcement:
+? Writers can create and edit drafts
+? Approvers can review and finalize
+? User-specific dashboards showing:
+? Draft documents
+? Pending approvals
+? Recently completed documents
+? Activity logging:
+? Document creation
+? Edits
+? Approval actions
+5.2.2. SharePoint Integration & Knowledge Ingestion Module
+5.2.2.1. Overview:
+This module connects the application to Brightter's SharePoint repositories and transforms historical RFP and proposal documents into a searchable knowledge base. It enables the system to retrieve relevant content from previously stored documents.
+
+The module ensures that institutional knowledge stored within SharePoint becomes accessible through contextual AI-based retrieval.
+
+5.2.2.2. Functional Capabilities
+? Secure SharePoint connection
+? Configurable document library access
+? Text extraction from Word and PDF documents
+? Content normalization and segmentation
+? Semantic indexing of extracted content
+? Periodic repository synchronization (if enabled)
+5.2.2.3. Workflow
+? System connects to designated SharePoint libraries
+? Repository access permissions validated
+? RFP and proposal documents identified
+? Text extracted from documents
+? Content segmented into logical sections
+? Content normalized for indexing
+? Indexed into searchable knowledge store
+? Index updated when new documents are added (if enabled)
+5.2.3. External Data Integration Module
+5.2.3.1. Overview
+
+This module enables integration with approved external websites or portals via API to supplement internal SharePoint knowledge. It allows structured data from authorized external sources to be incorporated into the searchable knowledge base.
+
+This ensures that both internal and approved external information can be used during AI-assisted response generation.
+
+5.2.3.2. Functional Capabilities
+? Secure API-based integration
+? API authentication handling
+? On-demand or scheduled data retrieval
+? Data validation and normalization
+? Indexing for unified search
+5.2.3.3. Workflow
+? System connects to approved external APIs
+? API authentication validated
+? Data fetched from designated endpoints
+? Retrieved data validated for completeness
+? Data normalized into internal structure
+? Indexed into searchable knowledge store
+
+
+? Content made available for retrieval during user queries
+5.2.4. Knowledge Retrieval & Semantic Search Module
+5.2.4.1. Overview
+
+This module enables contextual search across indexed internal and external knowledge sources. It interprets user questions in natural language and retrieves the most relevant content based on semantic similarity.
+
+Unlike keyword search, this module focuses on contextual understanding of the user query.
+
+5.2.4.2. Functional Capabilities
+? Natural language query processing
+? Semantic similarity search
+? Contextual content ranking
+? Retrieval of relevant content segments
+5.2.4.3. Workflow
+? User submits question in chat interface
+? System processes natural language query
+? Query converted into semantic representation
+? Contextual search executed across indexed content
+? Relevant document sections identified
+? Top relevant content selected
+? Retrieved context passed to AI response module
+5.2.5. AI Response Generation Module
+5.2.5.1. Overview:
+
+This module generates consolidated responses based strictly on retrieved internal and approved external data. The AI acts as a knowledge assistant, synthesizing relevant content into a structured answer displayed within the chat interface.
+
+The system grounds responses in indexed data sources to maintain alignment with
+Brightter's institutional knowledge.
+
+5.2.5.2. Functional Capabilities
+? Context-based prompt construction
+? Grounded response generation
+? Consolidated answer formatting
+? Chat-based response presentation
+? Query refinement support
+
+6.2.5.3. Workflow
+
+? System receives:
+? User query
+? Retrieved SharePoint content
+? Retrieved API-based content (if applicable)
+? Structured prompt constructed
+? AI generates a consolidated response
+? Response displayed in chat interface
+? User reviews generated response
+? User refines query if needed
+? Updated response generated upon new query
+5.2.6. User Interaction & Offline Utilisation Module
+5.2.6.1. Overview:
+
+This module supports how users consume generated responses and use them in their existing proposal preparation process. The system does not create or manage proposal documents internally. Users manually transfer generated content into offline documents.
+
+5.2.6.2. Functional Capabilities
+? Chat-based response viewing
+? Manual copy functionality
+? Multi-query interaction support
+? Session-based query continuity
+5.2.6.3. Workflow
+? User reviews generated response
+? User copies relevant content
+? User pastes content into an offline document
+? User prepares final proposal externally
+? The user may return to the system for additional queries
+
+6. Assumptions
+6.1. Project-Specific Assumptions
+
+
+AreaAssumptionSharePoint AccessRequired access to designated SharePoint document libraries will be provided prior to development.Document AvailabilityHistorical RFP and proposal documents are available in accessible Word or PDF formats within SharePoint.Document QualityStored documents contain machine-readable text (not scanned image-only files) suitable for text extraction and indexing.Repository StructureSharePoint library structure and document organization will remain stable during implementation.External API AccessAPI access credentials and technical documentation for approved external portals will be provided by Brightter Inc.External Data PermissionsBrightter Inc. holds necessary permissions and licenses to use data retrieved from external portals via API.Data Usage ComplianceOnly approved data sources will be integrated; compliance and usage guidelines will be confirmed before implementation.User AuthenticationOrganizational SSO integration details will be provided to enable secure authentication setup.User RolesUser role definitions (Internal User / Admin) will be finalized prior to system configuration.Query BehaviorUsers will use the platform for question-based retrieval and will prepare final proposal documents offline.AI GovernanceBrightter Inc. acknowledges that AI-generated responses require human review before final use.Hosting EnvironmentHosting environment and required infrastructure access will be provisioned by Brightter Inc. prior to deployment.Security PoliciesApplicable internal IT security policies and access restrictions will be shared for alignment during implementation.
+
+AreaAssumptionTesting & ValidationBrightter Inc. will provide timely access to users for testing, validation, and feedback during UAT.Change ManagementAny enhancements or feature additions beyond the defined chat-based retrieval scope will be treated as change requests.
+6.2. General Assumptions
+
+AreaAssumptionSingle Point of ContactA designated point of contact will coordinate feedback and approvals.Timely InputsRequired inputs, approvals, and access credentials will be provided as per project timelines.Change RequestsAny requirements beyond the approved scope will follow a formal change management process.Third-Party ToolsLicenses or subscriptions for any third-party tools, if required, will be arranged separately.Infrastructure ReadinessRequired infrastructure and security configurations will be available prior to deployment.Data OwnershipAll archival data and media assets remain the property of the governing authority.Browser & Device SupportPlatform usage will be supported on modern browsers and standard devices.Operational GovernanceGovernance policies and operational procedures will be defined by the governing authority.7. Exclusions
+
+
+AreaExclusion DescriptionDocument Creation & EditingThe system will not provide in-application proposal drafting, document editing, or document management capabilities.
+
+AreaExclusion DescriptionTemplate ManagementNo template creation, template enforcement, or structured document assembly features are included.Approval WorkflowNo review, approval lifecycle, or document status management functionality is included.Version ControlThe system will not maintain proposal version history, change tracking, or document audit trails.Publishing & Export EngineAutomated generation of formatted Word, PDF, or PowerPoint proposal documents is not included.Real-Time CollaborationSimultaneous multi-user editing or collaborative document functionality is not part of the solution.Advanced Role HierarchyComplex role hierarchies beyond defined system access roles are excluded.AI Model TrainingCustom model training, fine-tuning, or development of proprietary AI models is not included.Autonomous Decision MakingThe system will not automatically finalize or submit proposal responses without human review.External Data ProcurementSubscription management, licensing procurement, or contractual arrangements with third-party data providers are excluded.Custom Data ScrapingWeb scraping of external websites outside approved API integrations is not included.Business Intelligence DashboardsAdvanced analytics dashboards, KPI reporting, or predictive analytics features are not included.Mobile ApplicationDevelopment of native or dedicated mobile applications is excluded.Infrastructure ProcurementCloud hosting procurement, infrastructure purchasing, or third-party licensing costs are not included.Ongoing Managed ServicesPost-deployment managed services or long-term operational support are excluded unless separately contracted.
+8. Engagement Responsibilities
+The success of the engagement depends on coordinated efforts between Indus Net Technologies (INT.) and Brightter. The responsibilities outlined below establish clear ownership and support efficient project execution.
+
+AreaINT ResponsibilitiesBrightter Inc. ResponsibilitiesProject GovernancePlan and manage project execution, milestones, and delivery timelines.Nominate project stakeholders and provide timely decisions and approvals.Requirements AlignmentTranslate approved requirements into functional and technical design.Provide clear business requirements and validate functional expectations.Solution DesignDesign system architecture, integration framework, and retrieval approach aligned to scope.Review and approve proposed solution design.SharePoint IntegrationConfigure secure integration with designated	SharePoint repositories.Provide required SharePoint access, permissions, and technical documentation.External	API IntegrationImplement API connectivity and data ingestion from approved external portals.Provide API credentials, documentation, and confirm data usage permissions.Data	Ingestion	& IndexingExtract, normalize, and index historical documents for semantic search.Ensure historical documents are accessible and in readable formats.AI	Retrieval ConfigurationConfigure semantic search and response generation logic grounded in approved data sources.Validate response quality and provide feedback during testing.Security	& Access ControlImplement	authentication integration and enforce defined access controls.Provide SSO integration details and confirm access policies.Testing & ValidationConduct functional testing and support UAT execution.Participate in UAT and provide structured feedback within agreed timelines.
+
+AreaINT ResponsibilitiesBrightter Inc. ResponsibilitiesDeploymentDeploy the solution within the designated hosting environment.Provide hosting environment access and required infrastructure support.Compliance AlignmentAlign system implementation with shared security and data governance requirements.Share internal IT policies and confirm	compliance expectations.Documentation	& Knowledge TransferProvide technical documentation and conduct system walkthrough sessions.Review	documentation	and ensure internal user readiness.Change ManagementAssess and document any requested changes beyond approved scope.Submit formal change requests for additional features or enhancements.
+9. Technology Stack
+The platform will be built using reliable, standards-based technologies to ensure scalability, security, performance, and long-term sustainability.
+
+LayerTechnologyPurposeBackend FrameworkPythonProvides a secure and scalable application foundationFrontendReact.jsSupports cross-device accessibility and usabilityDatabaseVectorDBStores hierarchical metadata and archival recordsAI ModelLLM (GPT 5.0)Advanced transformer-based LLM capable of natural language understanding, contextual reasoning, content generation, summarization, and intelligent decision support.
+10. Platform Specification
+
+BrowsersVersionGoogle Chrome104.0 - 130.0Safari15.0 - 17.1Firefox103.0 - 118.0.2Microsoft Edge105.0 - 131.011. Project Execution Technology
+11.1. UI/UX Approach
+Design Principles:
+
+
+
+
+
+
+
+
+
+Design Thinking Process:
+
+
+
+
+UX Design Process Sequence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.2. 
+
+
+
+11.3. QA Execution Process
+
+ProcessDescription
+Step 1: Analysing Requirement DocumentsThe QA team analyses the requirements and functional specifications provided by stakeholders to understand system workflows, key functionalities, and potential test scenarios.
+Step 2: Preparation of Test PlanA detailed test plan is prepared, outlining the testing objectives, scope, timelines, resources, and strategies for manual and automated testing processes.
+Step 3: Preparing Test CasesComprehensive test cases are written based on requirements. These include positive and negative scenarios, edge cases, and
+functional and non-functional tests.
+Step 4: Releasing Build for TestingThe development team delivers a testable build. The QA team ensures the environment is set up correctly and conducts a smoke test to validate basic functionality.Step 5: Executing Test CasesThe QA team executes the prepared test cases, logs results, and documents any defects identified during the testing process.
+Step 6: Verification of Closed IssuesThe QA team verifies fixed defects, retests affected modules, and ensures that resolved issues do not introduce new defects (regression testing).
+Step 7: Test Closure and Sign-OffUpon successful completion of testing cycles, a test closure report is prepared, highlighting coverage, defects, and key findings. Stakeholders provide sign-off.12. Release Management
+
+Stage	Status
+
+Requirement Gathering	In Progress
+
+Project Planning
+
+Wireframing and Prototyping
+Design
+
+Backend Development
+
+Front End Development
+Testing and Quality Assurance
+
+User Acceptance Testing (UAT)
+Launch and Deployment
+
+13. Ownership of works
+A. Brightter shall retain ownership of all data, software applications, tools, and other Intellectual Property, etc. ("Materials") supplied for use under this Agreement.
+B. Indus Net Technologies agrees that its employees and contractors working on Brightter assignments shall have no claim of ownership of such Work Product developed for Brightter
+C. It's also suggested that quarterly, post clearance of payments INT., should hand over all Source codes to Brightter for backups and future references. Here, INT. will place a request to the Brightter server team to initiate the backup. The Brightter server team has to share the backup plan and schedule to understand the rollback plan.
+14. Change Management
+INT. has a formal change control process in fixed cost mode to ensure the impact of final delivery is not impaired. Well-documented scope changes help prevent misunderstanding and ensure that all parties clearly understand the impact on the timeframe, cost, and deliverables that a scope change may have.
+The Change Management process has two components to manage changes within the project environment:
+- The Change Request Process
+- The Change Approval Process
+The Change Request Process is designed to manage changes to the project goals, deliverables, timeline, or design specifications. A Change Request does not necessarily mean a monetary impact on Customers - that depends on the degree to which the scope is changed; however, all changes, large and small, are made via the Change Request process. To prevent misunderstandings, other forms of communication by any party, including, but not limited to, verbal discussions, meeting minutes, written or electronic memoranda, and presentations, do not constitute a proper Change Request.
+The Change Request Process could be used to implement any permanent change in the scope of the overall program, or for any one-time or out-of-scope work associated with a specific project. Depending on the change or work to be performed, a Change Request may or may not result in a pricing adjustment or a single service charge.
+The Change Approval Process provides the mechanism to accept and formalise the change requests. Specific procedures associated with the Change Approval Process are triggered upon submission of a Change Request Form to the INT. Project Manager. These could be fresh approvals for additional resources or funds, revisions to plans, schedules, etc.
+The following form will be created when any change request is received. Upon acceptance of the form and receipt of a signed copy, the work will be considered approved and will be worked upon upon receipt of a purchase order for the same.
+
+
+Project NameChange No
+Requested By
+Date
+Presented ToChange NameDescriptionScope of WorkEffortsTimelineDeliverableEffect on Project CostItem DescriptionCostUSD
+Total Net Change in Cost (Excluding Tax)In WordsTimelineFunctional Project Management (INT.)ApprovedSignatureRejected
+Title:
+Date:Brightter Inc.ApprovedSignatureRejectedTitle:Date:
+15. Deliverables
+
+
+
+e. Services under this engagement will be provided during standard business hours (10:00 AM to 7:00 PM IST) on working days, excluding national, state, and declared holidays unless otherwise agreed.
+f. Platform functionality, configuration accuracy, access controls, and workflows will be validated during User Acceptance Testing (UAT) using mutually agreed test scenarios under normal operating conditions.
+g. INT. will provide transition support and a post-go-live stabilization period (hypercare) of up to two (2) months, limited to issues related to in-scope functionality.
+h. Ongoing maintenance, enhancements, managed services, or extended support beyond the defined hypercare period are not included in this scope and may be governed under a separate agreement.
+i. Brightter shall nominate a Single Point of Contact (SPOC) to facilitate coordination, communication, approvals, and decision-making throughout the engagement.
+j. The UI/UX Design of this project will be taken care by the client side.
+k. All project communication, issue tracking, and change management will be conducted using mutually agreed collaboration and project management tools.
+l. INT. shall maintain strict confidentiality of all data, system information, and documentation shared during the engagement, in accordance with applicable confidentiality obligations.
+m. All images, content for this application development will be provided by the client.
+n. Transition activities are limited to knowledge transfer, documentation handover, and environment-level handover of the delivered platform. Any infrastructure changes, environment transitions, security revalidation, or compliance-related activities beyond the agreed setup shall be treated as out of scope.
+o. Any data migration, historical data transfer, or legacy system transition is excluded unless specifically defined in scope.
+p. Timely milestone-based payments are essential to ensure smooth delivery and service continuity. Events beyond the reasonable control of either party (force majeure) may impact timelines or delivery obligations without constituting a breach of service commitments. This proposal remains valid for twelve (12) months from the date of submission unless withdrawn or revised in writing by INT.
+18. Governance Model
+18.1. Communication
+
+
+Type
+Objectives
+Frequency
+Recipients   Person Responsible
+DeliverablesEmailShare updatesAs neededTeam members
+/ ClientProject Manager / Team LeadProject updatesPhoneImmediate discussionsAs neededTeam members
+/ ClientProject Manager / Team LeadQuick discussions
+
+Teams CallDemo/ ReviewMonthlyProject TeamProject Manager/ Team leadMonthly Team MeetingTeamsWeeklyWeeklyProject TeamProject Manager/ Team LeadWeekly Task Plan18.2. Escalation Matrix
+
+LevelNameRoleEmail ID
+L1
+TBD
+Project Manager
+TBD
+L2
+Paromita Dutta
+Lead Client Partner
+paromita@intglobal.com
+L3
+TBD
+Delivery Manager
+TBD
+L4
+Swarnali Nandy
+Director of Operations
+swarnali.nandy@intglobal.com
+19. Holiday List 2026
+
+##Holiday DetailsDateDay of the Week
+1
+New Year
+1st January 2026
+Thursday
+2
+Republic Day
+26th January 2026
+Monday
+3
+Holi (Doljatra)*
+3rd March 2026
+Tuesday
+4
+Bengali New Year *
+15th April 2026
+Wednesday
+5
+May Day
+1st May 2026
+Friday
+6
+Independence Day
+15th August 2026
+Saturday
+7
+Gandhi Jayanti
+2nd October 2026
+Friday
+8
+Durga Puja - Saptami
+18th October 2026
+Sunday
+9
+Durga Puja - Ashtami
+19th October 2026
+Monday
+10
+Durga Puja - Navami
+20th October 2026
+Tuesday
+11
+Dussehra (Vijaya Dashami)
+21st October 2026
+Wednesday
+12
+Diwali
+8th November 2026
+Sunday
+13
+Christmas Day
+25th December 2026
+Friday
+Contact Us
+
+   www.intglobal.com
+   paromita@intglobal.com
++91 86977 24359
+
+
+
+
+
+
+
+
+
+
+
+Kolkata
+
+Mumbai
+
+Chennai
+
+Hyderabad
+
+
+
+4th Floor, Block-2b, Ecospace Business Park, AA II, Newtown, Chakpachuria, West Bengal 700156
+
+Unit 607, Hubtown Viva, Shankarwadi, Jogeshwari East, Mumbai, Maharashtra 400060
+
+Workafella High Street, III Floor, 431 Anna Salai, Theynampet, Chennai - 600018
+   
+Ohris Tech Park 13, Inorbit Mall Rd, Software Units
+Layout, Madhapur, Hyderabad, Telangana 50008
+
+
+
+
+
+
+
+

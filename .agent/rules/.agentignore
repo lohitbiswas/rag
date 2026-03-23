@@ -1,0 +1,5 @@
+# Patterns to ignore for agent operations
+*.log
+*.tmp
+node_modules/
+build/

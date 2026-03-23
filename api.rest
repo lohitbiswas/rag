@@ -1,0 +1,59 @@
+
+@baseUrl = http://localhost:3000/api/pinecone
+
+### Get all records
+# Returns a list of all records
+GET {{baseUrl}}/records
+Accept: application/json
+
+### Get record by ID
+# Returns a single record by its ID
+GET {{baseUrl}}/records/{{:1}}
+Accept: application/json
+
+### Create a record
+# Creates a new record
+POST {{baseUrl}}/records
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "example-id",
+  "field": "value"
+}
+
+### Update a record
+# Updates an existing record by its ID
+PUT {{baseUrl}}/records/{{:5}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "field": "new value"
+}
+
+### Delete a record
+# Deletes a record by its ID
+DELETE {{baseUrl}}/records/{{:5}}
+Accept: application/json
+
+### Search records by text
+# Searches records containing the specified text in any field
+GET {{baseUrl}}/search?text=Do you have any information about apple company?
+Accept: application/json
+
+### Test LLM response
+# Returns an LLM-generated answer to a question
+GET {{baseUrl}}/llm-test?q=what%20is%20apple%3F
+Accept: application/json
+
+### List supported models
+# Returns a list of supported models from Google Generative AI
+GET {{baseUrl}}/models
+Accept: application/json
+
+
+### List active embedding models
+# Returns a list of all active embedding models from Google Generative AI
+GET {{baseUrl}}/embedding-models
+Accept: application/json

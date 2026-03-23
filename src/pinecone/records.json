@@ -1,0 +1,22 @@
+[
+  {
+    "id": "rec1",
+    "chunk_text": "Apple's first product, the Apple I, was released in 1976 and was hand-built by co-founder Steve Wozniak.",
+    "category": "product"
+  },
+  {
+    "id": "rec2",
+    "chunk_text": "Apples are a great source of dietary fiber, which supports digestion and helps maintain a healthy gut.",
+    "category": "nutrition"
+  },
+  {
+    "id": "rec3",
+    "chunk_text": "Apples originated in Central Asia and have been cultivated for thousands of years, with over 7,500 varieties available today.",
+    "category": "cultivation"
+  },
+  {
+    "id": "rec4",
+    "chunk_text": "In 2001, Apple released the iPod, which transformed the music industry by making portable music widely accessible.",
+    "category": "product"
+  }
+]
