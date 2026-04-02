@@ -39,13 +39,33 @@ Accept: application/json
 
 ### Search records by text
 # Searches records containing the specified text in any field
+
 GET {{baseUrl}}/search?text=Do you have any information about apple company?
 Accept: application/json
 
+# Sample response:
+# {
+#   "answer": "Apple's first product, the Apple I, was released in 1976 and was hand-built by co-founder Steve Wozniak.",
+#   "matches": [
+#     {
+#       "score": 0.04146227240562439,
+#       "chunk_text": "Apple's first product, the Apple I, was released in 1976 and was hand-built by co-founder Steve Wozniak.",
+#       "category": "product"
+#     }
+#   ]
+# }
+
 ### Test LLM response
 # Returns an LLM-generated answer to a question
+
 GET {{baseUrl}}/llm-test?q=what%20is%20apple%3F
 Accept: application/json
+
+# Sample response:
+# {
+#   "question": "what is apple?",
+#   "answer": "**Apple Inc.** is a multinational technology company headquartered in Cupertino, California. It is one of the world's largest and most valuable companies.\n\nHere's a breakdown of what Apple is:\n\n1.  **A Consumer Electronics Company:** Apple is best known for designing, manufacturing, and selling a wide range of consumer electronics. Its most famous products include:\n    *   **iPhone:** Its flagship smartphone.\n    *   **Mac:** A line of personal computers (MacBook, iMac, Mac mini, Mac Pro, Mac Studio).\n    *   **iPad:** A line of tablet computers.\n    *   **Apple Watch:** A smartwatch.\n    *   **AirPods:** Wireless earbuds.\n    *   **Apple TV:** A digital media player.\n    *   **HomePod:** A smart speaker.\n\n2.  **A Software Company:** Apple also develops its own proprietary operating systems and software for its devices:\n    *   **iOS:** For iPhones.\n    *   **macOS:** For Macs.\n    *   **iPadOS:** For iPads.\n    *   **watchOS:** For Apple Watches.\n    *   **tvOS:** For Apple TV.\n    *   It also develops various applications like Safari (web browser), Mail, Photos, Music, Pages, Numbers, Keynote, Final Cut Pro, Logic Pro, etc.\n\n3.  **An Online Services Provider:** In recent years, Apple has significantly expanded its services division, which includes:\n    *   **App Store:** For downloading apps.\n    *   **Apple Music:** A music streaming service.\n    *   **iCloud:** Cloud storage and syncing.\n    *   **Apple TV+:** A video streaming service.\n    *   **Apple Arcade:** A game subscription service.\n    *   **Apple Pay:** A mobile payment and digital wallet service.\n    *   **Apple News+:** A magazine and newspaper subscription service.\n    *   **Apple Fitness+:** A fitness and workout service.\n\n**Key Characteristics of Apple:**\n\n*   **Innovation:** Known for pushing boundaries in technology and user experience.\n*   **Design:** Renowned for its minimalist, sleek, and user-friendly product designs.\n*   **Ecosystem:** A tightly integrated ecosystem where Apple's hardware, software, and services work seamlessly together.\n*   **Premium Brand:** Often positioned as a premium brand with higher price points but perceived higher quality and customer experience.\n*   **Customer Loyalty:** Commands a strong base of loyal customers.\n\n**History:**\nApple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976 to develop and sell Wozniak's Apple I personal computer. It rose to prominence with the Macintosh in the 1980s, faced challenges in the 1990s, and then experienced a massive resurgence under Steve Jobs with products like the iPod, iPhone, and iPad, which revolutionized various industries.\n\nIn essence, Apple is a global leader in technology, shaping the way people interact with digital devices and services."
+# }
 
 ### List supported models
 # Returns a list of supported models from Google Generative AI
@@ -55,5 +75,38 @@ Accept: application/json
 
 ### List active embedding models
 # Returns a list of all active embedding models from Google Generative AI
+
 GET {{baseUrl}}/embedding-models
 Accept: application/json
+
+# Sample response:
+# [
+#   {
+#     "name": "models/gemini-embedding-001",
+#     "version": "001",
+#     "displayName": "Gemini Embedding 001",
+#     "description": "Obtain a distributed representation of a text.",
+#     "inputTokenLimit": 2048,
+#     "outputTokenLimit": 1,
+#     "supportedGenerationMethods": [
+#       "embedContent",
+#       "countTextTokens",
+#       "countTokens",
+#       "asyncBatchEmbedContent"
+#     ]
+#   },
+#   {
+#     "name": "models/gemini-embedding-2-preview",
+#     "version": "2",
+#     "displayName": "Gemini Embedding 2 Preview",
+#     "description": "Obtain a distributed representation of multimodal content.",
+#     "inputTokenLimit": 8192,
+#     "outputTokenLimit": 1,
+#     "supportedGenerationMethods": [
+#       "embedContent",
+#       "countTextTokens",
+#       "countTokens",
+#       "asyncBatchEmbedContent"
+#     ]
+#   }
+# ]
